@@ -1,0 +1,57 @@
+@import url("../assets/fonts/fonts.css");
+
+:root {
+  --primary-color: #B90000;
+  --background-color: #FFFFFF;
+  --foreground-color: #292929;
+}
+
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  color: var(--foreground-color);
+}
+
+.t1 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 170px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Syne';
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Inter';
+  line-height: 32px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Syne';
+}
+
+button {
+  border-radius: 25px;
+  background-color: var(--background-color);
+  min-width: 50px;
+  border-color: var(--foreground-color);
+  border-width: 1.5px;
+  height: 30px;
+}
+
+.button-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

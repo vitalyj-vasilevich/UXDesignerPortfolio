@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <meta name="keywords" content="UX, UI, Product, Design, Portfolio">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+    <title>UX Portfolio</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="icon-wrapper">
+        <img class="icon-image" src="/assets/images/fire_symbol_icon_small.png">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <button>
+        <div>
+          <img src="/assets/images/Vectorbutton-arrow.png">
+        </div>
+      </button>
+    </header>
+    <main role="main">
+      <section class="title-section">
+        <div>
+          <h1>PRODUCT</h1>
+          <h1>DESIGNER</h1>
+        </div>
+      </section>
+      <section class="blocks-section"></section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-menu-container">
+        <nav>
+          <ul>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="copyright-container">© 2023</div>
+    </footer>
+  </body>
+</html>
