@@ -22,12 +22,17 @@
 .icon-image {
   width: 20px;
   height: 20px;
+  margin-left: 0px;
 }
 
 /*menu styles*/
 nav {
   transition: .3s;
   font-family: 'Syne';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 3%;
 }
 
 nav ul {
@@ -52,13 +57,14 @@ nav ul li a {
 /*footer styles*/
 .site-footer {
   background-color: #FFFFFF;
-  position: fixed;
+  position: relative;
   text-align: center;
   left: 0;
   right: 0;
   bottom: 10px;
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .footer-menu-container {
@@ -83,6 +89,7 @@ nav ul li a {
 /*main content*/
 .main-container {
   margin-top: 20px;
+  max-width: 1440px;
 }
 
 .primary-background-block {
@@ -101,4 +108,32 @@ nav ul li a {
   display: flex;
   flex-direction: row;
   bottom: 0;
+}
+
+.blocks-section {
+  display: flex;
+  flex-direction: row;
+  min-height: 30vh;
+}
+
+.hey-section {
+  flex: 2.5;
+}
+
+.latest-section {
+  flex: 1;
+}
+
+.portfolio {
+  width: 30%;
+  border-bottom: 1px solid black;
+}
+
+.resume {
+  height: 30vh;
+}
+
+.next-project {
+  border-bottom: 1px solid black;
+  max-width: 50%;
 }
