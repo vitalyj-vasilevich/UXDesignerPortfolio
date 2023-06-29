@@ -5,10 +5,21 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <meta name="keywords" content="UX, UI, Product, Design, Portfolio">
     <link rel="stylesheet" href="fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en" />
+    <!--<link rel="import" href="templates/templates.html">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
     <title>UX Portfolio</title>
   </head>
   <body>
+    <!--<script>
+      var link = document.querySelector('link[rel="import"]');
+      console.log(link);
+      console.log(link.import);
+      var rightArrowBlackTemplate = link.import.querySelector(".right-black-arrow-button-content");
+      var rightArrowBlackEl = document.importNode(rightArrowBlackTemplate.content, true);
+
+      document.querySelector(".right-black-arrow-button").appendChild(rightArrowBlackEl);
+      alert();
+    </script>-->
     <div>
       <header class="site-header">
         <div class="icon-wrapper">
@@ -54,13 +65,13 @@
                 <h2 class="background-color-text">A Product Designer experienced in working for a variety of digital products.</h2>
               </div>
               <div class="projects-links-container">
-                <button>
+                <button class="transparent-button">
                   <h3>FINTECH</h3>
                 </button>
-                <button>
+                <button class="transparent-button">
                   <h3>CRYPTO</h3>
                 </button>
-                <button>
+                <button class="transparent-button">
                   <h3>ADMIN PANEL</h3>
                 </button>
               </div>
@@ -68,36 +79,43 @@
             <div class="skills-and-interests">
               <h1 class="background-color-text">SKILLS AND INTERESTS</h1>
               <div class="projects-links-container">
-                <button>
+                <button class="transparent-button">
                   <h3>UX DESIGN</h3>
                 </button>
-                <button>
+                <button class="transparent-button">
                   <h3>UI DESIGN</h3>
                 </button>
-                <button>
+                <button class="transparent-button">
                   <h3>DESIGN SYSTEM</h3>
                 </button>
-                <button>
-
+                <button class="transparent-button">
+                  <img src="assets/images/right_arrow_white.svg">
                 </button>
               </div>
             </div>
           </div>
           <div class="foreground-background-block latest-section">
             <h1 class="background-color-text">LATEST PROJECT</h1>
-            <button>
-
+            <button class="right-white-arrow-button transparent-button">
+              <img class="button-arrow-image" src="assets/images/right_arrow_white.svg">
             </button>
           </div>
         </section>
         <section class="blocks-section container-fluid">
           <div class="portfolio">
             <h1>PORTFOLIO</h1>
+            <button>
+              <img class="button-arrow-image" src="assets/images/right_arrow_black.svg">
+            </button>
           </div>
-          <div>
-            <div class="resume foreground-background-block">
-              <h1 class="background-color-text">RESUME</h1>
-            </div>
+          <div class="resume foreground-background-block">
+            <h1 class="background-color-text">RESUME</h1>
+            <button class="transparent-button">
+              <h3>PDF</h3>
+            </button>
+            <button class="transparent-button">
+              <img class="button-arrow-image" src="assets/images/right_arrow_white.svg">
+            </button>
           </div>
           <div class="next-project">
             <h1>LET'S DISCUSS OUR NEXT PROJECT</h1>
@@ -124,6 +142,11 @@
       <div class="footer-menu-container">
         <nav>
           <ul>
+            <li>
+              <button>
+                <img src="assets/images/up_arrow_black.svg">
+              </button>
+            </li>
             <li><a href="#">Work</a></li>
             <li><a href="#">Resume</a></li>
             <li><a href="#">About</a></li>
