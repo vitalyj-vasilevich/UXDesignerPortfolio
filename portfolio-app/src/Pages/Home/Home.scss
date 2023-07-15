@@ -1,0 +1,23 @@
+@import '../../base.scss';
+
+.title-container {
+  margin: $default-desktop-margin;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.available-text {
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.ellipse-container {
+  width: 16px;
+  height: 16px;
+}
