@@ -4,6 +4,7 @@ $primary-color: #B90000;
 $background-color: #FFFFFF;
 $foreground-color: #292929;
 $main-font: 'Syne';
+$secondary-font: 'Inter';
 $default-desktop-margin: 80px;
 
 body {
@@ -55,24 +56,6 @@ h3 {
   color: $background-color;
 }
 
-/*footer styles*/
-.site-footer {
-  background-color: #FFFFFF;
-  position: fixed;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-menu-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 //Button styles
 .btn {
   background-color: $background-color;
@@ -85,9 +68,9 @@ h3 {
 }
 
 button {
-  border-radius: 25px;  
+  border-radius: 32px;  
   min-width: 50px;
-  border-width: 2px;
+  border: 1.5px solid;
   height: 40px;
   padding: 0px 24px;
 }
@@ -100,5 +83,5 @@ button {
 }
 
 .arrow-container {
-  margin: 8px 0px;
+  margin: 7px 0px;
 }

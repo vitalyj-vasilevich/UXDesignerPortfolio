@@ -9,7 +9,7 @@ export function Footer() {
         <button className='btn up-btn'>
           <div className="button-content-container">
             <div className='arrow-container'>
-              <img src={arrowLogo} alt='A small arrow poiting right' />
+              <img src={arrowLogo} alt='A small arrow poiting up' />
             </div>
           </div>
         </button>
