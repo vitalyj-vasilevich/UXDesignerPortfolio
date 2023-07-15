@@ -1,0 +1,120 @@
+//@import url("../../assets/fonts/fonts.scss");
+
+$primary-color: #B90000;
+$background-color: #FFFFFF;
+$foreground-color: #292929;
+$main-font: 'Syne';
+$default-desktop-margin: 80px;
+
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $main-font;
+  font-style: normal;
+  color: $foreground-color;
+}
+
+.t1 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 170px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Syne';
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Inter';
+  line-height: 32px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Syne';
+}
+
+button {
+  border-radius: 25px;  
+  min-width: 50px;
+  border-width: 1.5px;
+  height: 30px;
+}
+
+.button-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.primary-background {
+  background-color: $primary-color;
+}
+
+.foreground-background {
+  background-color: $foreground-color;
+}
+
+.background-color-text {
+  color: $background-color;
+}
+
+nav {
+  transition: .3s;
+  font-family: 'Syne';
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #151515;
+  padding: 12px 30px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+/*footer styles*/
+.site-footer {
+  background-color: #FFFFFF;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+//Button styles
+.btn {
+  background-color: $background-color;
+  border-color: $foreground-color;
+}
+
+.inv-btn {
+  background-color: $background-color;
+  border-color: $foreground-color;
+}

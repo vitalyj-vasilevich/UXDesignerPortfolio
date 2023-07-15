@@ -1,0 +1,24 @@
+@import '../../../base.scss';
+
+.site-footer {
+  background-color: $background-color;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright-container {
+  font-family: $main-font;
+  font-size: 12px;
+  line-height: 16px;
+}
