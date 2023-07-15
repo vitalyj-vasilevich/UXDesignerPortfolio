@@ -8,13 +8,21 @@
   right: 0;
   bottom: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer-menu-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  margin: 50px 0px 10px;
+}
+
+.up-btn {
+  right: 0px;
 }
 
 .copyright-container {

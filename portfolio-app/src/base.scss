@@ -39,7 +39,8 @@ h3 {
   font-size: 16px;
   line-height: 20px;
   font-family: 'Syne';
-  font-weight: normal;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .primary-background {
@@ -52,30 +53,6 @@ h3 {
 
 .background-color-text {
   color: $background-color;
-}
-
-nav {
-  transition: .3s;
-  font-family: 'Syne';
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  color: #151515;
-  padding: 12px 30px;
-  text-decoration: none;
-  transition: .3s;
 }
 
 /*footer styles*/
@@ -110,16 +87,18 @@ nav ul li a {
 button {
   border-radius: 25px;  
   min-width: 50px;
-  border-width: 1.5px;
-  height: 30px;
+  border-width: 2px;
+  height: 40px;
+  padding: 0px 24px;
 }
 
 .button-content-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-height: 40px;
 }
 
 .arrow-container {
-
+  margin: 8px 0px;
 }
