@@ -39,19 +39,7 @@ h3 {
   font-size: 16px;
   line-height: 20px;
   font-family: 'Syne';
-}
-
-button {
-  border-radius: 25px;  
-  min-width: 50px;
-  border-width: 1.5px;
-  height: 30px;
-}
-
-.button-content-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  font-weight: normal;
 }
 
 .primary-background {
@@ -117,4 +105,21 @@ nav ul li a {
 .inv-btn {
   background-color: $background-color;
   border-color: $foreground-color;
+}
+
+button {
+  border-radius: 25px;  
+  min-width: 50px;
+  border-width: 1.5px;
+  height: 30px;
+}
+
+.button-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.arrow-container {
+
 }

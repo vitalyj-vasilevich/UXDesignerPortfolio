@@ -1,4 +1,3 @@
-import { ButtonGroup } from "@mui/material";
 import "./Header.scss";
 import fireLogo from './fire_symbol_icon_small.png';
 
@@ -19,9 +18,12 @@ export function Header() {
           </nav>
         </div> 
         <div className='get-in-touch-btn'>
-          <button>
+          <button className='btn'>
             <div className="button-content-container">
               <h3>Get in touch</h3>
+              <div className='arrow-container'>
+
+              </div>
             </div>
           </button>
         </div>
