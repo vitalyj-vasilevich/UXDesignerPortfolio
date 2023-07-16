@@ -2,17 +2,25 @@ import './MainTitle.scss';
 import arrowLogo from './down_arrow_black.svg';
 import ellipseLogo from './available_ellipse.svg';
 import fireSymbol from './fire_symbol_big.svg';
+import nameLine from './name_line.svg';
 
 export function MainTitle() {
   return (
     <div className='title-container'>
-      <div className='title-text-container'>
-      <div className='main-text-container'>
+      <div className='horizontal-container'>
+        <div className='title-text-container'>
           <span className='t1'>PRODUCT</span>
           <span className='t1'>DESIGNER</span>
         </div>
+        <img className='fire-symbol-image' src={fireSymbol} alt='Big slavic fire symbol' />
+        <div className='name-text-container'>
+          <span className='line-and-text-container'>
+            <img src={nameLine} alt='Black horizontal line' />
+            <h2>Natallia Miliukova</h2>
+          </span>
+          <h2>Tbilisi, Georgia</h2>
+        </div>
       </div>
-      <img src={}
       <div className='buttons-container'>
         <button className='btn'>
           <div className="button-content-container">

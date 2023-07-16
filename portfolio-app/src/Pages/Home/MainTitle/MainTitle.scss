@@ -23,8 +23,30 @@
   height: 16px;
 }
 
-.main-text-container {
+.title-text-container {
   display: flex;
   flex-direction: column;
   left: 0px;
+}
+
+.fire-symbol-image {
+  opacity: 0.02;
+  margin: 0px -50px;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.name-text-container {
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+}
+
+.line-and-text-container {
+  display: flex;
+  flex-direction: row;
 }
