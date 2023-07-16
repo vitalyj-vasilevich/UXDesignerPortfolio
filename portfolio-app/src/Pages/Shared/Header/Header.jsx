@@ -16,9 +16,7 @@ export function Header() {
         <button className='btn get-in-touch-btn'>
           <div className="button-content-container">
             <h3 className='get-in-touch-text'>Get in touch</h3>
-            <div className='arrow-container'>
-              <img src={arrowLogo} alt='A small arrow poiting right' />
-            </div>
+            <img src={arrowLogo} alt='A small arrow poiting right' />
           </div>
         </button>
       </div>

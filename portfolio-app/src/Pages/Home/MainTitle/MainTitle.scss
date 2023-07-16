@@ -1,0 +1,30 @@
+@import '../../../base.scss';
+
+.title-container {
+  margin: $default-desktop-margin;
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  position: relative;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.available-text {
+  margin-left: 16px;
+}
+
+.ellipse-container {
+  width: 16px;
+  height: 16px;
+}
+
+.main-text-container {
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+}

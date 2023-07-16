@@ -8,16 +8,14 @@ export function Footer() {
       <div className='footer-container'>
         <button className='btn up-btn'>
           <div className="button-content-container">
-            <div className='arrow-container'>
-              <img src={arrowLogo} alt='A small arrow poiting up' />
-            </div>
+            <img src={arrowLogo} alt='A small arrow poiting up' />
           </div>
         </button>
-        <div className='footer-menu-container'>        
+        <div className='footer-menu-container'>
           <Menu />
         </div>
       </div>
-      <div class="copyright-container">© Natallia Miliukova 2023 | Product Designer | natasha.milyukova@gmail.com</div>
+      <div className='copyright-container'>© Natallia Miliukova 2023 | Product Designer | natasha.milyukova@gmail.com</div>
     </footer>
   );
 }
