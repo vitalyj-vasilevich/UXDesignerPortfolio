@@ -1,16 +1,19 @@
-import './App.scss';
-import Home from './Pages/Home/Home';
-import Footer from './Pages/Shared/Footer/Footer'
-import Header from './Pages/Shared/Header/Header';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import "./App.scss";
+import Home from "./Pages/Home/Home";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/work",
+    element: <div>{"Work"}</div>,
+  },
+]);
 function App() {
-  return (
-    <div className="app">
-      <Header></Header>
-      <Home></Home>
-      <Footer></Footer>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
