@@ -2,11 +2,8 @@
 
 .site-footer {
   // background-color: $background-color;
-  position: fixed;
+  position: relative;
   text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 0px;
   margin-bottom: 24px;
   display: flex;
   flex-direction: column; 

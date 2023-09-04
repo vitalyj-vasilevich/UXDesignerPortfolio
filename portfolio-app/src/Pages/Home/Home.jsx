@@ -2,6 +2,7 @@ import "./Home.scss";
 import { createTheme } from "@mui/material/styles";
 import MainTitle from "./MainTitle/MainTitle";
 import PageWrapper from "../../components/PageWrapper/PageWrapper";
+import MainSection from "./MainSection/MainSection";
 
 const darkTheme = createTheme({
   palette: {
@@ -20,6 +21,7 @@ export function Home() {
     <PageWrapper theme={lightTheme}>
       <main>
         <MainTitle />
+        <MainSection />
       </main>
     </PageWrapper>
   );

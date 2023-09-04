@@ -58,13 +58,13 @@ h3 {
 
 //Button styles
 .btn {
-  background-color: $background-color;
+  background-color: transparent;
   border-color: $foreground-color;
 }
 
 .inv-btn {
-  background-color: $background-color;
-  border-color: $foreground-color;
+  background-color: transparent;
+  border-color: $background-color;
 }
 
 button {

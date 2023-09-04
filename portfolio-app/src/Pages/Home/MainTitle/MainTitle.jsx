@@ -18,7 +18,10 @@ export function MainTitle() {
             <img src={nameLine} alt='Black horizontal line' />
             <h2>Natallia Miliukova</h2>
           </span>
-          <h2>Tbilisi, Georgia</h2>
+          <span className='line-and-text-container'>
+            <img src={nameLine} alt='Black horizontal line' />
+            <h2>Tbilisi, Georgia</h2>
+          </span>
         </div>
       </div>
       <div className='buttons-container'>
