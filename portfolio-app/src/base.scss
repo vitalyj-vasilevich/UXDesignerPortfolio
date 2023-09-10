@@ -1,4 +1,4 @@
-
+@import '~bootstrap/scss/bootstrap';
 
 $primary-color: #B90000;
 $background-color: #FFFFFF;
@@ -7,41 +7,102 @@ $main-font: 'Syne';
 $secondary-font: 'Inter';
 $default-desktop-margin: 80px;
 
-// body {
-//   font-size: 16px;
-//   line-height: 20px;
-//   font-family: $main-font;
-//   font-style: normal;
-//   color: $foreground-color;
-// }
-
 .t1 {
   font-family: 'Syne';
   font-style: normal;
   font-weight: 600;
   font-size: 128px;
   line-height: 170px;
+  letter-spacing: 5.5%;
+}
+
+.t2 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 90px;
+  letter-spacing: 5.5%;
 }
 
 h1 {
-  font-size: 32px;
   font-family: 'Syne';
-  line-height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 5.5%;
 }
 
 h2 {
-  font-size: 24px;
   font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 32px;
-  font-weight: normal;
+  letter-spacing: 5.5%;
 }
 
 h3 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Syne';
-  font-weight: 600;
+  letter-spacing: 5.5%;
+}
+
+.b2 {
+  font-family: 'Inter';
   font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 5.5%;
+}
+
+@media (max-width: 767.98px) {
+  .t1 {
+    font-size: 64px;
+    line-height: 90px;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 359px) {
+  .t1 {
+    font-size: 48px;
+    line-height: 70px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .primary-background {
